@@ -21,4 +21,4 @@ The price for each block is determined based on the following factors:
 3. **Price Multiplier**: Combining the two hashes, a final hash is generated. The first 8 bytes of this hash are then converted to a float number between 0 and 1. This multiplier is adjusted to a range between 0.001 (lucky) and 11 (unlucky) (see below).
 4. The base price is multiplied by this multiplier to determine the final price for the block.
 
-![fawchain example](../img/blockchain.png)
+![fawchain example](./img/blockchain.png)
